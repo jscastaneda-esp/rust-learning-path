@@ -54,7 +54,7 @@ fn car_factory(color: String, motor: Transmission, roof: bool, miles: u32) -> Ca
     }
 }
 
-fn main() {
+pub fn main() {
     // Create car color array
     let colors = ["Azul", "Verde", "Rojo", "Plateado"];
 

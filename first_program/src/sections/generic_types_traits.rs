@@ -34,7 +34,11 @@ impl Area for Rectangle {
 
 use std::fmt;
 
-impl<T, U> fmt::Display for Point<T, U> {
+impl<T, U> fmt::Display for Point<T, U>
+where
+    T: fmt::Display,
+    U: fmt::Display,
+{
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
         write!(f, "({}, {})", self.x, self.y)
     }

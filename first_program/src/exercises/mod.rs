@@ -1,0 +1,14 @@
+pub mod exercise_compose_types;
+pub mod exercise_conditional_if_else;
+pub mod exercise_documentation_tests;
+pub mod exercise_hash_map;
+pub mod exercise_implement_generic_type;
+pub mod exercise_implement_iterator;
+pub mod exercise_lifetimes;
+pub mod exercise_loop;
+pub mod exercise_modules;
+pub mod exercise_structure_enum;
+pub mod exercise_unit_tests;
+pub mod exercise_use_option_type;
+pub mod exercise_use_result_type;
+pub mod exercise_visibility;
